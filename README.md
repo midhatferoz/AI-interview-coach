@@ -131,13 +131,3 @@ This is what makes it feel like a real interviewer rather than a static quiz.
   uses the `-latest` alias, so this project doesn't rot from version pinning
   issues — the tradeoff being behavior can shift slightly as Google updates
   the underlying model, which is fine for a demo project.
-
-## Extending it
-
-- Adding a "career path suggestion" bonus screen at the end (reuses the same
-  structured-output pattern).
-- Swaping the difficulty rule for something more nuanced (e.g. weighted rolling
-  average of the last 2-3 scores instead of the single latest score).
-- Adding a FastAPI layer in front of `src/graph.py` if you need a non-Streamlit
-  client later — the graph and models are UI-agnostic already.
-- Persist sessions to a database instead of the JSON download.
