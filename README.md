@@ -8,6 +8,7 @@ Built as a portfolio/mini-project with a genuinely useful architecture,
 not just a Q&A wrapper around an LLM.
 
 SCREENSHOTS OF THE PROJECT:
+
 Image 1-
 ![img.png](img.png)
 
